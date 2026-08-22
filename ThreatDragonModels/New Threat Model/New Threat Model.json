@@ -21,6 +21,147 @@
         "cells": [
           {
             "position": {
+              "x": 310,
+              "y": 189.9999999999999
+            },
+            "size": {
+              "width": 400,
+              "height": 340
+            },
+            "attrs": {
+              "label": {
+                "text": "Application Server"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "be8e8253-c92a-4bc0-91f5-12b64504619f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Application Server",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "63973873-490c-47ba-a77c-e4c69991456d",
+                "a258982e-8a91-46db-9461-6e1c6eeac067",
+                "a3a1f53e-2830-473e-bb14-5c07fcf05e06",
+                "aebde67d-b1de-4dc5-9e34-14541c7580ec"
+              ],
+              "containedElements": [
+                "72811e73-3737-4a84-be9b-399dc6521c51",
+                "08485212-bbe0-409b-8e2d-49aeb69e1a45",
+                "75aa57b1-db77-443c-b57b-685b2e423361"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 12,
+              "y": -2.3305801732931286e-12
+            },
+            "size": {
+              "width": 960,
+              "height": 150
+            },
+            "attrs": {
+              "label": {
+                "text": "Authentication\nService"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "01d506cd-c43f-4c46-bee0-5d720827218d",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Authentication\nService",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "a3a1f53e-2830-473e-bb14-5c07fcf05e06",
+                "de97f1ca-c6bb-454a-8140-8ee970a5a9f7"
+              ],
+              "containedElements": [
+                "a8f4b911-05d3-4240-bf06-5dc3bfe3de4f",
+                "a33d0ab8-478c-44a1-a8e2-133f97cea3f7",
+                "af8675b1-8c41-4b44-84a0-360d189fc891"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 774.9999999999995,
+              "y": 190.0000000000005
+            },
+            "size": {
+              "width": 200,
+              "height": 340
+            },
+            "attrs": {
+              "label": {
+                "text": "Backend"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "57457ae4-a3c6-42d9-ac5e-0f93c1965217",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Backend",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "63973873-490c-47ba-a77c-e4c69991456d",
+                "a258982e-8a91-46db-9461-6e1c6eeac067",
+                "aebde67d-b1de-4dc5-9e34-14541c7580ec"
+              ],
+              "containedElements": [
+                "41cb5cfb-99c3-4512-ae5b-73b9ab26b1e7",
+                "f60030ba-570d-4951-ac51-bdf97bbfb10a"
+              ]
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "14a7ab21-e0d7-4ece-81d4-c7b26622af3c",
+            "source": {
+              "x": 44,
+              "y": 195
+            },
+            "target": {
+              "x": 280,
+              "y": 530
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "position": {
               "x": 440,
               "y": 40
             },
@@ -142,7 +283,7 @@
           {
             "position": {
               "x": 440,
-              "y": 190
+              "y": 215
             },
             "size": {
               "width": 100,
@@ -906,7 +1047,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "be8e8253-c92a-4bc0-91f5-12b64504619f",
+                "57457ae4-a3c6-42d9-ac5e-0f93c1965217"
+              ]
             },
             "labels": [
               "Business\ndata"
@@ -958,7 +1102,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "be8e8253-c92a-4bc0-91f5-12b64504619f",
+                "57457ae4-a3c6-42d9-ac5e-0f93c1965217"
+              ]
             },
             "labels": [
               "Messages"
@@ -1241,8 +1388,8 @@
           },
           {
             "position": {
-              "x": 53.75,
-              "y": 215
+              "x": 43.75,
+              "y": 315
             },
             "size": {
               "width": 112.5,
@@ -1387,7 +1534,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "be8e8253-c92a-4bc0-91f5-12b64504619f",
+                "01d506cd-c43f-4c46-bee0-5d720827218d"
+              ]
             },
             "labels": [
               "Authentication\nrequests/responses"
@@ -1447,7 +1597,7 @@
             "id": "89b1d6ac-0b9f-4a90-8c35-7875031340a0",
             "source": {
               "x": 440,
-              "y": 250
+              "y": 270
             },
             "target": {
               "cell": "774bfb81-5abc-421c-9015-752aeffb39bc",
@@ -1455,8 +1605,8 @@
             },
             "vertices": [
               {
-                "x": 330,
-                "y": 250
+                "x": 290,
+                "y": 270
               }
             ]
           },
@@ -1615,7 +1765,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "01d506cd-c43f-4c46-bee0-5d720827218d"
+              ]
             },
             "labels": [
               "Credentials\nTokens"
@@ -1667,7 +1819,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "be8e8253-c92a-4bc0-91f5-12b64504619f",
+                "57457ae4-a3c6-42d9-ac5e-0f93c1965217"
+              ]
             },
             "labels": [
               "Business\ndata"
