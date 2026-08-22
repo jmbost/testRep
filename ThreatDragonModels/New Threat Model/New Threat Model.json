@@ -630,7 +630,7 @@
           {
             "position": {
               "x": 290,
-              "y": 20
+              "y": 30
             },
             "size": {
               "width": 120,
@@ -754,7 +754,7 @@
           {
             "position": {
               "x": 280,
-              "y": 444
+              "y": 420
             },
             "size": {
               "width": 120,
@@ -1059,7 +1059,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Config",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1073,17 +1073,75 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Config"
             ],
             "id": "413149a2-65f0-4075-aead-f0224c5acfdc",
             "source": {
-              "x": 170,
-              "y": 364
+              "cell": "75aa57b1-db77-443c-b57b-685b2e423361",
+              "port": "b1d7f461-67f5-46a5-9504-d3dc938ff8ef"
             },
             "target": {
-              "x": 270,
-              "y": 464
-            }
+              "cell": "08485212-bbe0-409b-8e2d-49aeb69e1a45",
+              "port": "b88c1b49-1f4a-4c3e-8568-10208d3bbcf2"
+            },
+            "vertices": [
+              {
+                "x": 450,
+                "y": 504
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Config",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Config"
+            ],
+            "id": "8d6195a1-e42d-4e9f-b37c-ec3c62460b8e",
+            "source": {
+              "cell": "a33d0ab8-478c-44a1-a8e2-133f97cea3f7",
+              "port": "8c0563b3-d342-44e3-8dfc-7c69853df5bd"
+            },
+            "target": {
+              "cell": "a8f4b911-05d3-4240-bf06-5dc3bfe3de4f",
+              "port": "2bad6c6c-de81-4e53-86f9-2917cf1a79d8"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 10
+              }
+            ]
           },
           {
             "position": {
