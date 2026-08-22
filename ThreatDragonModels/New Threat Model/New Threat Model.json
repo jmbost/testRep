@@ -886,7 +886,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Web UI"
+                "text": "Web Server"
               },
               "body": {
                 "stroke": "#333333",
@@ -981,7 +981,7 @@
             "id": "4c67db27-6a0b-417d-bd6f-ae31af69f0fb",
             "data": {
               "type": "tm.Process",
-              "name": "Web UI",
+              "name": "Web Server",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
