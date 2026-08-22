@@ -1155,7 +1155,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Business data\nTokens",
+              "name": "Config",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1169,16 +1169,104 @@
               "trustBoundaryIds": []
             },
             "labels": [
+              "Config"
+            ],
+            "id": "d6a90377-2328-4b78-ad16-59eb9b5bf65e",
+            "source": {
+              "cell": "75aa57b1-db77-443c-b57b-685b2e423361",
+              "port": "8c0563b3-d342-44e3-8dfc-7c69853df5bd"
+            },
+            "target": {
+              "cell": "72811e73-3737-4a84-be9b-399dc6521c51",
+              "port": "b88c1b49-1f4a-4c3e-8568-10208d3bbcf2"
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Business data\nTokens",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
               "Business data\nTokens"
             ],
             "id": "f98a437c-e5cc-44be-8a41-c51841f9e4e4",
             "source": {
               "cell": "72811e73-3737-4a84-be9b-399dc6521c51",
-              "port": "b88c1b49-1f4a-4c3e-8568-10208d3bbcf2"
+              "port": "129edeec-6699-4407-9504-1e64ee36a9e2"
             },
             "target": {
               "cell": "08485212-bbe0-409b-8e2d-49aeb69e1a45",
               "port": "2bad6c6c-de81-4e53-86f9-2917cf1a79d8"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 300
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
