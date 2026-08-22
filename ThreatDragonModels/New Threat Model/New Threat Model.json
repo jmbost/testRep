@@ -261,7 +261,7 @@
           },
           {
             "position": {
-              "x": 440,
+              "x": 570,
               "y": 344
             },
             "size": {
@@ -381,7 +381,7 @@
           },
           {
             "position": {
-              "x": 679,
+              "x": 809,
               "y": 255
             },
             "size": {
@@ -505,7 +505,7 @@
           },
           {
             "position": {
-              "x": 679,
+              "x": 809,
               "y": 444
             },
             "size": {
@@ -753,7 +753,7 @@
           },
           {
             "position": {
-              "x": 280,
+              "x": 410,
               "y": 420
             },
             "size": {
@@ -922,12 +922,8 @@
             },
             "vertices": [
               {
-                "x": 650,
-                "y": 245
-              },
-              {
-                "x": 700,
-                "y": 210
+                "x": 770,
+                "y": 220
               }
             ]
           },
@@ -978,8 +974,8 @@
             },
             "vertices": [
               {
-                "x": 700,
-                "y": 400
+                "x": 820,
+                "y": 420
               }
             ]
           },
@@ -1030,12 +1026,8 @@
             },
             "vertices": [
               {
-                "x": 630,
-                "y": 130
-              },
-              {
-                "x": 699,
-                "y": 160
+                "x": 760,
+                "y": 150
               }
             ]
           },
@@ -1086,7 +1078,7 @@
             },
             "vertices": [
               {
-                "x": 450,
+                "x": 580,
                 "y": 504
               }
             ]
@@ -1125,7 +1117,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Config"
+              "Confi"
             ],
             "id": "8d6195a1-e42d-4e9f-b37c-ec3c62460b8e",
             "source": {
@@ -1144,8 +1136,54 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Business data\nTokens",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Business data\nTokens"
+            ],
+            "id": "f98a437c-e5cc-44be-8a41-c51841f9e4e4",
+            "source": {
+              "cell": "72811e73-3737-4a84-be9b-399dc6521c51",
+              "port": "b88c1b49-1f4a-4c3e-8568-10208d3bbcf2"
+            },
+            "target": {
+              "cell": "08485212-bbe0-409b-8e2d-49aeb69e1a45",
+              "port": "2bad6c6c-de81-4e53-86f9-2917cf1a79d8"
+            }
+          },
+          {
             "position": {
-              "x": 113.75,
+              "x": 53.75,
               "y": 215
             },
             "size": {
@@ -1366,7 +1404,7 @@
           },
           {
             "position": {
-              "x": 679,
+              "x": 809,
               "y": 50
             },
             "size": {
@@ -1556,62 +1594,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 16,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Business data\nTokens",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Business data\nTokens"
-            ],
-            "id": "a78cdbb3-88c1-4b89-a3ac-291ee308fe15",
-            "source": {
-              "cell": "72811e73-3737-4a84-be9b-399dc6521c51",
-              "port": "b88c1b49-1f4a-4c3e-8568-10208d3bbcf2"
-            },
-            "target": {
-              "cell": "08485212-bbe0-409b-8e2d-49aeb69e1a45",
-              "port": "7aef2a01-0a8a-4bb0-be41-9020636af4ab"
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 320
-              },
-              {
-                "x": 420,
-                "y": 340
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "zIndex": 17,
             "connector": "smooth",
             "data": {
@@ -1643,16 +1625,8 @@
             },
             "vertices": [
               {
-                "x": 630,
-                "y": 370
-              },
-              {
-                "x": 660,
-                "y": 350
-              },
-              {
-                "x": 710,
-                "y": 350
+                "x": 840,
+                "y": 360
               }
             ]
           }
