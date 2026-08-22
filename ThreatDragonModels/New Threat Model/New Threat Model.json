@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "v2.6.2-latest",
+  "released_at": "2026-08-22",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "A development team",
+    "description": "Focus on web application",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "web application"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "A product security team",
+    "threatTop": 0
+  }
+}
