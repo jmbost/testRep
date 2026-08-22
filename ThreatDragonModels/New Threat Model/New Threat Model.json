@@ -381,8 +381,8 @@
           },
           {
             "position": {
-              "x": 619,
-              "y": 265
+              "x": 679,
+              "y": 255
             },
             "size": {
               "width": 120,
@@ -505,7 +505,7 @@
           },
           {
             "position": {
-              "x": 619,
+              "x": 679,
               "y": 444
             },
             "size": {
@@ -753,8 +753,8 @@
           },
           {
             "position": {
-              "x": 276.25,
-              "y": 430
+              "x": 280,
+              "y": 444
             },
             "size": {
               "width": 120,
@@ -922,11 +922,11 @@
             },
             "vertices": [
               {
-                "x": 590,
+                "x": 650,
                 "y": 245
               },
               {
-                "x": 640,
+                "x": 700,
                 "y": 210
               }
             ]
@@ -978,7 +978,7 @@
             },
             "vertices": [
               {
-                "x": 640,
+                "x": 700,
                 "y": 400
               }
             ]
@@ -1030,18 +1030,64 @@
             },
             "vertices": [
               {
-                "x": 610,
-                "y": 90
+                "x": 630,
+                "y": 130
               },
               {
-                "x": 679,
-                "y": 120
+                "x": 699,
+                "y": 160
               }
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "413149a2-65f0-4075-aead-f0224c5acfdc",
+            "source": {
+              "x": 170,
+              "y": 364
+            },
+            "target": {
+              "x": 270,
+              "y": 464
+            }
+          },
+          {
             "position": {
-              "x": 163.75,
+              "x": 113.75,
               "y": 215
             },
             "size": {
@@ -1228,7 +1274,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Business\ndata",
+              "name": "Business data\nTokens",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1242,7 +1288,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Business\ndata"
+              "Business data\nTokens"
             ],
             "id": "89b1d6ac-0b9f-4a90-8c35-7875031340a0",
             "source": {
@@ -1262,8 +1308,8 @@
           },
           {
             "position": {
-              "x": 619,
-              "y": 10
+              "x": 679,
+              "y": 50
             },
             "size": {
               "width": 120,
@@ -1456,7 +1502,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Business\ndata",
+              "name": "Business data\nTokens",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1470,7 +1516,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Business\ndata"
+              "Business data\nTokens"
             ],
             "id": "a78cdbb3-88c1-4b89-a3ac-291ee308fe15",
             "source": {
@@ -1539,15 +1585,15 @@
             },
             "vertices": [
               {
-                "x": 570,
+                "x": 630,
                 "y": 370
               },
               {
-                "x": 600,
+                "x": 660,
                 "y": 350
               },
               {
-                "x": 650,
+                "x": 710,
                 "y": 350
               }
             ]
