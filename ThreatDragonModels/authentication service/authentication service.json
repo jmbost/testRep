@@ -277,6 +277,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -373,8 +374,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -397,6 +397,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -493,8 +494,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -517,6 +517,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -613,8 +614,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 5
+            }
           },
           {
             "position": {
@@ -637,6 +637,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -733,8 +734,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 6
+            }
           },
           {
             "shape": "flow",
@@ -849,6 +849,66 @@
                   "name": "block"
                 },
                 "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "user ID\ngroups",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "user ID\ngroups"
+            ],
+            "id": "97f963c9-9bc9-439e-9e61-754b8b7d6d84",
+            "source": {
+              "cell": "95f0dbd7-066e-4ef8-b042-272f694c50ad",
+              "port": "b412ec8d-cb3c-47ea-98a3-9e0439c914db"
+            },
+            "target": {
+              "cell": "6e11d6db-6faf-4d59-9abe-21efa6fe88f6",
+              "port": "9cd24e38-bc9a-4800-b6d6-74167bf3c0f0"
+            },
+            "vertices": [
+              {
+                "x": 740,
+                "y": 40
+              },
+              {
+                "x": 790,
+                "y": 20
+              },
+              {
+                "x": 820,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
                   "name": "block"
                 },
                 "strokeDasharray": null
@@ -860,7 +920,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "credentials\ngroups",
+              "name": "credentials\nok",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -874,7 +934,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "credentials\ngroups"
+              "credentials\nok"
             ],
             "id": "a836d7e1-9d36-4e74-850a-c80376b065a3",
             "source": {
@@ -884,7 +944,8 @@
             "target": {
               "cell": "6e11d6db-6faf-4d59-9abe-21efa6fe88f6",
               "port": "9cd24e38-bc9a-4800-b6d6-74167bf3c0f0"
-            }
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -910,6 +971,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -993,7 +1055,6 @@
               ]
             },
             "id": "6e11d6db-6faf-4d59-9abe-21efa6fe88f6",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Directory",
@@ -1034,6 +1095,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1131,8 +1193,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 12
+            }
           },
           {
             "position": {
@@ -1158,6 +1219,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1255,8 +1317,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 13
+            }
           },
           {
             "position": {
@@ -1282,6 +1343,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1379,8 +1441,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -1406,6 +1467,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1503,60 +1565,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 15
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 16,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "user ID\ngroups",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "user ID\ngroups"
-            ],
-            "id": "ff61bbbe-96cb-4822-885e-fd724b3b5680",
-            "source": {
-              "x": 737,
-              "y": 74
-            },
-            "target": {
-              "cell": "6e11d6db-6faf-4d59-9abe-21efa6fe88f6",
-              "port": "9cd24e38-bc9a-4800-b6d6-74167bf3c0f0"
-            },
-            "vertices": [
-              {
-                "x": 790,
-                "y": 120
-              }
-            ]
+            }
           }
         ],
         "description": "authentication service"
