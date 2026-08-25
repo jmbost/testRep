@@ -789,6 +789,104 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "user ID\naccess token",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "user ID\naccess token"
+            ],
+            "id": "d8a5ab56-62a6-4f51-8e12-7c99615d9d83",
+            "source": {
+              "cell": "01c63f77-c28d-4649-aa07-8406d3d48a1a",
+              "port": "9fcc7c0c-10f8-42c1-9c15-74064658247d"
+            },
+            "target": {
+              "cell": "95f0dbd7-066e-4ef8-b042-272f694c50ad",
+              "port": "992c11b9-ea35-4b85-a375-f68b3b21a5c4"
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "credentials\ngroups",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "credentials\ngroups"
+            ],
+            "id": "a836d7e1-9d36-4e74-850a-c80376b065a3",
+            "source": {
+              "cell": "a329eeb2-a0db-4fce-b1dc-9c648df66ad7",
+              "port": "c8ca81a3-5bd4-49b8-b8c2-80d5dab96150"
+            },
+            "target": {
+              "cell": "6e11d6db-6faf-4d59-9abe-21efa6fe88f6",
+              "port": "9cd24e38-bc9a-4800-b6d6-74167bf3c0f0"
+            }
+          },
+          {
             "position": {
               "x": 882,
               "y": -65
@@ -1406,14 +1504,7 @@
               "storesInventory": false,
               "threats": []
             },
-            "zIndex": 15,
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            "zIndex": 15
           }
         ],
         "description": "authentication service"
