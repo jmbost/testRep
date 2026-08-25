@@ -1796,7 +1796,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1813,7 +1813,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -1825,13 +1825,23 @@
             ],
             "id": "b295ece2-000b-4b13-820d-5d1dbf9826ec",
             "source": {
-              "x": 530,
-              "y": 320
+              "cell": "826ea50e-bf96-4c15-b626-a4c52e738df4",
+              "port": "c8ca81a3-5bd4-49b8-b8c2-80d5dab96150"
             },
             "target": {
               "cell": "2dd22214-f68c-4626-91d4-86e7d20de921",
               "port": "992c11b9-ea35-4b85-a375-f68b3b21a5c4"
-            }
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": 380
+              },
+              {
+                "x": 580,
+                "y": 327
+              }
+            ]
           }
         ],
         "description": "authentication service"
