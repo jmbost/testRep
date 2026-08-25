@@ -887,6 +887,52 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "user ID\ngroups",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "user ID\ngroups"
+            ],
+            "id": "ff61bbbe-96cb-4822-885e-fd724b3b5680",
+            "source": {
+              "x": 737,
+              "y": 74
+            },
+            "target": {
+              "x": 837,
+              "y": 174
+            }
+          },
+          {
             "position": {
               "x": 882,
               "y": -65
