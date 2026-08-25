@@ -1852,7 +1852,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1869,7 +1869,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -1887,7 +1887,13 @@
             "target": {
               "cell": "826ea50e-bf96-4c15-b626-a4c52e738df4",
               "port": "992c11b9-ea35-4b85-a375-f68b3b21a5c4"
-            }
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 280
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1898,7 +1904,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1915,7 +1921,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -1933,7 +1939,13 @@
             "target": {
               "cell": "01c63f77-c28d-4649-aa07-8406d3d48a1a",
               "port": "992c11b9-ea35-4b85-a375-f68b3b21a5c4"
-            }
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 100
+              }
+            ]
           }
         ],
         "description": "authentication service"
