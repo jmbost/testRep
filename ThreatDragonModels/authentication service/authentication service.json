@@ -21,6 +21,146 @@
         "cells": [
           {
             "position": {
+              "x": 353.99999999999926,
+              "y": -89.99999999999949
+            },
+            "size": {
+              "width": 210,
+              "height": 280
+            },
+            "attrs": {
+              "label": {
+                "text": "logon\nserver"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "b8f9da61-de77-4d9a-9dee-f4288c6a6a41",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "logon\nserver",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "63c04a48-bd5a-43d6-9fc6-f1210f63c2f3",
+                "d8a5ab56-62a6-4f51-8e12-7c99615d9d83",
+                "ba604f6e-6228-4558-8992-973f68676614"
+              ],
+              "containedElements": [
+                "01c63f77-c28d-4649-aa07-8406d3d48a1a"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 587.9999999999997,
+              "y": -120.00000000000006
+            },
+            "size": {
+              "width": 430,
+              "height": 310
+            },
+            "attrs": {
+              "label": {
+                "text": "oauth infra"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "fe50d2bf-fd58-4b2a-9fa0-51a33dd8b9c3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "oauth infra",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "63c04a48-bd5a-43d6-9fc6-f1210f63c2f3",
+                "97f963c9-9bc9-439e-9e61-754b8b7d6d84",
+                "9a60d5b0-c36d-41c4-982c-8ef259ad727b"
+              ],
+              "containedElements": [
+                "a329eeb2-a0db-4fce-b1dc-9c648df66ad7",
+                "6e11d6db-6faf-4d59-9abe-21efa6fe88f6",
+                "22069a06-d16a-4cb9-8a0c-c9125c4bc732",
+                "ed1aec22-74a8-45ca-981a-4d5b33354b72"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 353.9999999999993,
+              "y": 242.0000000000016
+            },
+            "size": {
+              "width": 470,
+              "height": 170
+            },
+            "attrs": {
+              "label": {
+                "text": "app server"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "d2101400-bece-4977-b48c-cee29a00c612",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "app server",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "a900c760-692d-4c33-bfc0-ebb8ef0a248c",
+                "76fe2a82-4f7d-4267-9a14-ed64a31cc2ee",
+                "c1e19716-756d-4fe5-888c-6493a755c128"
+              ],
+              "containedElements": [
+                "826ea50e-bf96-4c15-b626-a4c52e738df4",
+                "2dd22214-f68c-4626-91d4-86e7d20de921"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 847,
+              "y": 202.9999999999999
+            },
+            "size": {
+              "width": 170,
+              "height": 220
+            },
+            "attrs": {
+              "label": {
+                "text": "storage server"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "81166481-f8da-41f3-b449-cb894a5e81f3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "storage server",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "a900c760-692d-4c33-bfc0-ebb8ef0a248c",
+                "76fe2a82-4f7d-4267-9a14-ed64a31cc2ee"
+              ],
+              "containedElements": [
+                "d1f5b553-569c-441e-ae3f-39d69768ad14",
+                "920209a0-23e0-40a1-a42a-6b293acae2e5"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": 110,
               "y": 160
             },
@@ -767,7 +907,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "b8f9da61-de77-4d9a-9dee-f4288c6a6a41",
+                "fe50d2bf-fd58-4b2a-9fa0-51a33dd8b9c3"
+              ]
             },
             "labels": [
               "credentials"
@@ -819,7 +962,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fe50d2bf-fd58-4b2a-9fa0-51a33dd8b9c3"
+              ]
             },
             "labels": [
               "user ID\ngroups"
@@ -982,7 +1127,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "fe50d2bf-fd58-4b2a-9fa0-51a33dd8b9c3"
+              ]
             },
             "labels": [
               "key"
@@ -1034,7 +1181,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "b8f9da61-de77-4d9a-9dee-f4288c6a6a41"
+              ]
             },
             "labels": [
               "user ID\naccess token"
@@ -1090,7 +1239,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d2101400-bece-4977-b48c-cee29a00c612",
+                "81166481-f8da-41f3-b449-cb894a5e81f3"
+              ]
             },
             "labels": [
               "config"
@@ -1142,7 +1294,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d2101400-bece-4977-b48c-cee29a00c612",
+                "81166481-f8da-41f3-b449-cb894a5e81f3"
+              ]
             },
             "labels": [
               "key"
@@ -1874,7 +2029,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "d2101400-bece-4977-b48c-cee29a00c612"
+              ]
             },
             "labels": [
               "redirection\naccess token"
@@ -1926,7 +2083,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "b8f9da61-de77-4d9a-9dee-f4288c6a6a41"
+              ]
             },
             "labels": [
               "credentials\naccess token"
