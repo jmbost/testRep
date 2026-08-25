@@ -1807,7 +1807,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "access token\nuser ID, groups",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1821,7 +1821,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "access token\nuser ID, groups"
             ],
             "id": "b295ece2-000b-4b13-820d-5d1dbf9826ec",
             "source": {
